@@ -1,25 +1,25 @@
 class Pitwall < Formula
   desc "F1 live timing in your terminal"
   homepage "https://github.com/jmvezic/pitwall-tui"
-  version "0.1.3"
+  version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jmvezic/pitwall-tui/releases/download/v0.1.3/pitwall-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "f693eb0de5714b1f6e56741fcf0cb78047ec1b29512ac2c0ce684ada281abee2"
+      url "https://github.com/jmvezic/pitwall-tui/releases/download/v0.1.4/pitwall-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "aa0269c43c58174023eaa67c226993aa3f129da01d1ab85ff0a18afc56c45e8b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jmvezic/pitwall-tui/releases/download/v0.1.3/pitwall-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "18f8c977029d637ea590f510a135fc59b9c209622618f21fab8dc257fea3829f"
+      url "https://github.com/jmvezic/pitwall-tui/releases/download/v0.1.4/pitwall-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "4ac075a16173d48a00caf5b8560f05caaaae0a76ccc2db6d37f153245b43544e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jmvezic/pitwall-tui/releases/download/v0.1.3/pitwall-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "80f9afd789fa38abe8d6db33a12a7110cd44100753546324c3ffc72d348957e1"
+      url "https://github.com/jmvezic/pitwall-tui/releases/download/v0.1.4/pitwall-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "bd4f92f7d6c87cc02ebb3bb20d1156ca38ea79d6ed1b1018efa23b5120c7f794"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jmvezic/pitwall-tui/releases/download/v0.1.3/pitwall-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d2de98a02b53a49536e751863f74f50b7f6918a5f5244650d962e84eea8a876f"
+      url "https://github.com/jmvezic/pitwall-tui/releases/download/v0.1.4/pitwall-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "562c9537724bf0b36074daae79dfadedf6be59d43340ad424821f2f51bd4f400"
     end
   end
   license "MIT"
